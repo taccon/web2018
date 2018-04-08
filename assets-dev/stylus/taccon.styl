@@ -9,9 +9,19 @@ color-red = #D75353
 body
   font-family: 'sansationbold'
   background-color: color-anthracite
+  margin: 0
+  padding: 0
+  @media screen and (max-width: 420px)
+    transform: scale(.8)
+    transform-origin: top left
 
-.tc-items
-  width: 100%
+a
+  text-decoration: none
+
+/* Menu items */
+
+.tc-content
+  padding: .5rem
 
 .tc-item
   font-family: 'sansationbold_italic'
@@ -23,6 +33,8 @@ body
   display: inline-block
   border: 9px solid
   margin: .8rem
+  cursor: pointer
+  overflow hidden
   &:nth-child(1),&:nth-child(4n+5)
     color: color-yellow
     border-color: color-yellow
@@ -35,3 +47,58 @@ body
   &:nth-child(4),&:nth-child(4n+8)
     color: color-red
     border-color: color-red
+
+/* Content */
+
+body.tc-overlay-active
+  & .tc-item:first-child
+    border-color: color-anthracite !important
+  & .tc-logo
+    fill: color-anthracite
+  &.tc-about
+  &.tc-imprint
+    background-color: color-green
+  &.tc-audioplayer
+    background-color: color-blue
+  &.tc-controllr
+    background-color: color-red
+
+.tc-overlay
+  display: inline-block
+  width: 100vw
+  color: color-anthracite
+  font-size: 2rem
+  font-family: 'sansationitalic'
+  h1
+    margin: 0
+    font-size: 2.4rem
+    font-family: 'sansationbold_italic'
+  & .tc-overlay-content
+    padding: 2rem
+  a, a:visited, a:active
+    color: color-anthracite
+    text-decoration: underline
+
+/* Footer */
+
+.tc-footer
+  font-family: 'sansationregular'
+  padding: 1.5rem
+  font-size: .75rem
+  display: inline-block
+  height: 200px
+  width: 90vw
+  strong
+    font-weight: normal
+    font-family: 'sansationbold'
+  span
+    position: relative
+    top: 8px
+    margin-left: 5px
+  a
+    text-decoration: underline
+  & .tc-footer-green
+  & .tc-footer-green a
+    color: color-green
+  & .tc-footer-blue
+    color: color-blue

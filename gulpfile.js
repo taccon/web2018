@@ -48,7 +48,7 @@ gulp.task('scripts', function () {
                 console.log(error.message);
             }
         }))
-        .pipe(g.concat('kw.js'))
+        .pipe(g.concat('taccon.js'))
         .pipe(gulp.dest('site/assets/js/'))
         .pipe(g.rename({ suffix: '.min' }))
         .pipe(g.uglify())

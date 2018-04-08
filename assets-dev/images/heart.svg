@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="250px" height="234px" viewBox="0 0 250 234" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>heart</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-35.000000, -581.000000)" fill="#090909">
+            <g id="wtf">
+                <path d="M100.617685,581 C64.3931036,581 35,610.713056 35,647.332578 C35,721.826436 109.326383,741.358515 159.978807,815 C207.864144,741.808447 284.962612,719.451791 284.962612,647.332578 C284.962612,610.713056 255.56201,581 219.342427,581 C193.071357,581 170.45224,596.682654 159.978807,619.24428 C149.502874,596.682654 126.888756,581 100.617685,581" id="heart"></path>
+            </g>
+        </g>
+    </g>
+</svg>
